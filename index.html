@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroGuardião 360 - Agrinho 2026</title>
+  <meta name="description" content="Projeto Agrinho 2026 sobre agro forte, futuro sustentável e equilíbrio entre produção e meio ambiente.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="cabecalho" id="inicio">
+    <nav class="menu">
+      <a href="#inicio" class="logo">🌱 AgroGuardião 360</a>
+
+      <div class="links">
+        <a href="#sobre">Sobre</a>
+        <a href="#como-usar">Como usar</a>
+        <a href="#simulador">Simulador</a>
+        <a href="#painel">Painel</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#relatorio">Relatório</a>
+      </div>
+
+      <div class="botoes-topo">
+        <button id="botaoFonte" type="button">A+</button>
+        <button id="botaoTema" type="button">🌙</button>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-texto">
+        <p class="etiqueta">Agrinho 2026 • Programação Front-End</p>
+
+        <h1>Agro forte, futuro sustentável</h1>
+
+        <p>
+          Um projeto interativo sobre como a tecnologia pode ajudar o campo a produzir
+          mais, economizar recursos naturais e proteger o meio ambiente.
+        </p>
+
+        <div class="botoes">
+          <a href="#simulador" class="botao principal">Testar simulador</a>
+          <a href="#quiz" class="botao secundario">Responder quiz</a>
+        </div>
+      </div>
+
+      <div class="visual-campo" aria-label="Ilustração de um campo monitorado">
+        <div class="sol"></div>
+        <div class="nuvem"></div>
+
+        <div class="lavoura">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="robo">🤖</div>
+        <div class="pulso"></div>
+        <div class="pulso pulso2"></div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="secao" id="sobre">
+      <div class="titulo">
+        <p class="etiqueta">Objetivo</p>
+        <h2>Produzir sem destruir</h2>
+
+        <p>
+          O AgroGuardião 360 simula uma tecnologia de monitoramento da lavoura.
+          A proposta mostra que um agro forte precisa equilibrar produtividade,
+          preservação do solo, uso consciente da água e cuidado com a biodiversidade.
+        </p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <span>🌾</span>
+          <h3>Produção responsável</h3>
+          <p>Planejar a produção reduz perdas e melhora o uso dos recursos.</p>
+        </article>
+
+        <article class="card">
+          <span>💧</span>
+          <h3>Água preservada</h3>
+          <p>Irrigação eficiente e proteção de nascentes ajudam a evitar desperdício.</p>
+        </article>
+
+        <article class="card">
+          <span>🌱</span>
+          <h3>Solo protegido</h3>
+          <p>Cobertura vegetal e rotação de culturas reduzem erosão.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao destaque">
+      <div class="titulo claro">
+        <p class="etiqueta">Tecnologia no campo</p>
+        <h2>Como o AgroGuardião funcionaria?</h2>
+
+        <p>
+          O robô ou drone terrestre percorre a lavoura, registra dados e ajuda a
+          identificar riscos antes que o problema se espalhe.
+        </p>
+      </div>
+
+      <div class="passos">
+        <article>
+          <strong>1</strong>
+          <h3>Observa</h3>
+          <p>Analisa folhas, solo, temperatura e umidade.</p>
+        </article>
+
+        <article>
+          <strong>2</strong>
+          <h3>Calcula</h3>
+          <p>Estima risco de pragas e estresse ambiental.</p>
+        </article>
+
+        <article>
+          <strong>3</strong>
+          <h3>Orienta</h3>
+          <p>Gera recomendações sustentáveis para o produtor.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao fundo" id="como-usar">
+      <div class="titulo">
+        <p class="etiqueta">Guia do projeto</p>
+        <h2>Como usar o AgroGuardião 360</h2>
+
+        <p>
+          O site foi criado para mostrar, de forma interativa, como dados simples
+          podem ajudar o produtor rural a tomar decisões mais sustentáveis.
+        </p>
+      </div>
+
+      <div class="lista-passos">
+        <article>
+          <strong>1</strong>
+          <h3>Leia a proposta</h3>
+          <p>Entenda a relação entre produção agrícola e preservação ambiental.</p>
+        </article>
+
+        <article>
+          <strong>2</strong>
+          <h3>Ajuste o simulador</h3>
+          <p>Altere umidade, temperatura, sinais nas folhas e preservação.</p>
+        </article>
+
+        <article>
+          <strong>3</strong>
+          <h3>Analise o risco</h3>
+          <p>Veja o resultado calculado e as recomendações sustentáveis.</p>
+        </article>
+
+        <article>
+          <strong>4</strong>
+          <h3>Aprenda com o quiz</h3>
+          <p>Teste seus conhecimentos sobre agro sustentável.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao" id="simulador">
+      <div class="titulo">
+        <p class="etiqueta">Interatividade</p>
+        <h2>Simulador de risco da lavoura</h2>
+
+        <p>
+          Ajuste os dados como se fossem informações coletadas no campo.
+          O JavaScript calcula o nível de risco e apresenta uma orientação.
+        </p>
+      </div>
+
+      <div class="simulador">
+        <div class="controles">
+          <label for="umidade">Umidade do solo: <strong id="valorUmidade">50</strong>%</label>
+          <input type="range" id="umidade" min="0" max="100" value="50">
+
+          <label for="temperatura">Temperatura: <strong id="valorTemperatura">25</strong>°C</label>
+          <input type="range" id="temperatura" min="10" max="45" value="25">
+
+          <label for="folhas">Sinais nas folhas: <strong id="valorFolhas">30</strong>%</label>
+          <input type="range" id="folhas" min="0" max="100" value="30">
+
+          <label for="preservacao">Preservação ambiental: <strong id="valorPreservacao">60</strong>%</label>
+          <input type="range" id="preservacao" min="0" max="100" value="60">
+
+          <button id="botaoResetar" type="button" class="botao principal">Reiniciar análise</button>
+          <button id="salvarAnalise" type="button" class="botao secundario">Salvar análise</button>
+        </div>
+
+        <article class="resultado">
+          <p class="etiqueta">Resultado</p>
+
+          <div class="numero">
+            <span id="risco">0</span><small>%</small>
+          </div>
+
+          <div class="barra">
+            <div id="barraRisco"></div>
+          </div>
+
+          <h3 id="tituloResultado">Análise da lavoura</h3>
+          <p id="textoResultado">Ajuste os controles para ver a recomendação.</p>
+
+          <div class="historico">
+            <h3>Histórico de análises</h3>
+            <p id="historicoVazio">Nenhuma análise salva ainda.</p>
+            <ul id="historicoLista"></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao fundo" id="painel">
+      <div class="titulo">
+        <p class="etiqueta">Painel de dados</p>
+        <h2>Leitura rápida do campo</h2>
+      </div>
+
+      <div class="dados">
+        <article>
+          <span>💧</span>
+          <h3 id="cardUmidade">50%</h3>
+          <p>Umidade</p>
+        </article>
+
+        <article>
+          <span>🌡️</span>
+          <h3 id="cardTemperatura">25°C</h3>
+          <p>Temperatura</p>
+        </article>
+
+        <article>
+          <span>🍃</span>
+          <h3 id="cardFolhas">30%</h3>
+          <p>Sinais nas folhas</p>
+        </article>
+
+        <article>
+          <span>🌱</span>
+          <h3 id="cardPreservacao">60%</h3>
+          <p>Preservação</p>
+        </article>
+      </div>
+
+      <div class="recomendacoes">
+        <h3>Recomendações sustentáveis</h3>
+        <ul id="listaRecomendacoes"></ul>
+      </div>
+    </section>
+
+    <section class="secao" id="quiz">
+      <div class="titulo">
+        <p class="etiqueta">Aprendizado</p>
+        <h2>Quiz do agro sustentável</h2>
+        <p>Teste seus conhecimentos sobre produção e meio ambiente.</p>
+      </div>
+
+      <div class="quiz">
+        <div class="quiz-topo">
+          <span id="progressoQuiz">Pergunta 1 de 5</span>
+          <span>Pontos: <strong id="pontosQuiz">0</strong></span>
+        </div>
+
+        <h3 id="perguntaQuiz">Carregando pergunta...</h3>
+        <div id="opcoesQuiz" class="opcoes"></div>
+        <p id="feedbackQuiz" class="feedback"></p>
+
+        <div class="botoes">
+          <button id="proximaPergunta" type="button" class="botao principal">Próxima pergunta</button>
+          <button id="reiniciarQuiz" type="button" class="botao secundario">Reiniciar quiz</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao destaque" id="relatorio">
+      <div class="titulo claro">
+        <p class="etiqueta">Relatório</p>
+        <h2>Gerador de compromisso sustentável</h2>
+        <p>Preencha os campos e gere uma mensagem final para o projeto.</p>
+      </div>
+
+      <form id="formRelatorio" class="formulario">
+        <label for="nomeEquipe">Nome do estudante ou equipe</label>
+        <input type="text" id="nomeEquipe" placeholder="Ex: João 1A" required>
+
+        <label for="acao">Ação sustentável escolhida</label>
+        <select id="acao" required>
+          <option value="">Selecione uma ação</option>
+          <option value="economizar água na irrigação">Economizar água na irrigação</option>
+          <option value="proteger o solo com cobertura vegetal">Proteger o solo com cobertura vegetal</option>
+          <option value="monitorar a lavoura antes de aplicar defensivos">Monitorar antes de aplicar defensivos</option>
+          <option value="preservar áreas verdes e nascentes">Preservar áreas verdes e nascentes</option>
+        </select>
+
+        <button type="submit" class="botao claro-botao">Gerar relatório</button>
+      </form>
+
+      <article id="relatorioGerado" class="relatorio-gerado">
+        O relatório aparecerá aqui.
+      </article>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Projeto Agrinho 2026 • AgroGuardião 360 • HTML, CSS e JavaScript</p>
+  </footer>
+
+  <button id="voltarTopo" type="button" class="voltar-topo">↑</button>
+
+<script src="js/script.js?v=10"></script>
+</body>
+</html>
